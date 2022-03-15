@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		15C9589427DFCE3500D3FD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9589327DFCE3500D3FD28 /* AppDelegate.swift */; };
-		15C9589627DFCE3500D3FD28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9589527DFCE3500D3FD28 /* SceneDelegate.swift */; };
-		15C9589827DFCE3500D3FD28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9589727DFCE3500D3FD28 /* ViewController.swift */; };
 		15C9589B27DFCE3500D3FD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C9589927DFCE3500D3FD28 /* Main.storyboard */; };
 		15C9589E27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15C9589C27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld */; };
 		15C958A027DFCE3700D3FD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C9589F27DFCE3700D3FD28 /* Assets.xcassets */; };
 		15C958A327DFCE3700D3FD28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C958A127DFCE3700D3FD28 /* LaunchScreen.storyboard */; };
+		15C958B027DFCF4700D3FD28 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958AF27DFCF4700D3FD28 /* APIRequests.swift */; };
+		15C958B227DFCF5700D3FD28 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958B127DFCF5700D3FD28 /* JSONUtils.swift */; };
+		15C958B527DFCF8000D3FD28 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 15C958B427DFCF8000D3FD28 /* SDWebImage */; };
+		15C958B727DFCF9600D3FD28 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958B627DFCF9600D3FD28 /* CoreDataManager.swift */; };
+		15C958BB27DFCFCB00D3FD28 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958BA27DFCFCB00D3FD28 /* MovieListController.swift */; };
+		15C958BE27DFCFFB00D3FD28 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958BD27DFCFFB00D3FD28 /* MovieCell.swift */; };
+		15C958C527DFD09400D3FD28 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958C327DFD09400D3FD28 /* Movie+CoreDataClass.swift */; };
+		15C958C627DFD09400D3FD28 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958C427DFD09400D3FD28 /* Movie+CoreDataProperties.swift */; };
+		15C958C827DFE08100D3FD28 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C958C727DFE08100D3FD28 /* MovieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15C9589027DFCE3500D3FD28 /* RentaTeamTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentaTeamTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C9589327DFCE3500D3FD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15C9589527DFCE3500D3FD28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15C9589727DFCE3500D3FD28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15C9589A27DFCE3500D3FD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15C9589D27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RentaTeamTest.xcdatamodel; sourceTree = "<group>"; };
 		15C9589F27DFCE3700D3FD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C958A227DFCE3700D3FD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C958A427DFCE3800D3FD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C958AF27DFCF4700D3FD28 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		15C958B127DFCF5700D3FD28 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtils.swift; sourceTree = "<group>"; };
+		15C958B627DFCF9600D3FD28 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		15C958BA27DFCFCB00D3FD28 /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
+		15C958BD27DFCFFB00D3FD28 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		15C958C327DFD09400D3FD28 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		15C958C427DFD09400D3FD28 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		15C958C727DFE08100D3FD28 /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C958B527DFCF8000D3FD28 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +72,46 @@
 		15C9589227DFCE3500D3FD28 /* RentaTeamTest */ = {
 			isa = PBXGroup;
 			children = (
+				15C958AF27DFCF4700D3FD28 /* APIRequests.swift */,
+				15C958B127DFCF5700D3FD28 /* JSONUtils.swift */,
+				15C958AE27DFCEE400D3FD28 /* Model */,
+				15C958B927DFCFAC00D3FD28 /* ViewControllers */,
+				15C958BC27DFCFDF00D3FD28 /* Cells */,
 				15C9589327DFCE3500D3FD28 /* AppDelegate.swift */,
-				15C9589527DFCE3500D3FD28 /* SceneDelegate.swift */,
-				15C9589727DFCE3500D3FD28 /* ViewController.swift */,
 				15C9589927DFCE3500D3FD28 /* Main.storyboard */,
 				15C9589F27DFCE3700D3FD28 /* Assets.xcassets */,
 				15C958A127DFCE3700D3FD28 /* LaunchScreen.storyboard */,
 				15C958A427DFCE3800D3FD28 /* Info.plist */,
-				15C9589C27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld */,
 			);
 			path = RentaTeamTest;
+			sourceTree = "<group>";
+		};
+		15C958AE27DFCEE400D3FD28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15C958C327DFD09400D3FD28 /* Movie+CoreDataClass.swift */,
+				15C958C427DFD09400D3FD28 /* Movie+CoreDataProperties.swift */,
+				15C958B627DFCF9600D3FD28 /* CoreDataManager.swift */,
+				15C9589C27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15C958B927DFCFAC00D3FD28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				15C958BA27DFCFCB00D3FD28 /* MovieListController.swift */,
+				15C958C727DFE08100D3FD28 /* MovieController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15C958BC27DFCFDF00D3FD28 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15C958BD27DFCFFB00D3FD28 /* MovieCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +130,9 @@
 			dependencies = (
 			);
 			name = RentaTeamTest;
+			packageProductDependencies = (
+				15C958B427DFCF8000D3FD28 /* SDWebImage */,
+			);
 			productName = RentaTeamTest;
 			productReference = 15C9589027DFCE3500D3FD28 /* RentaTeamTest.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +161,9 @@
 				Base,
 			);
 			mainGroup = 15C9588727DFCE3500D3FD28;
+			packageReferences = (
+				15C958B327DFCF8000D3FD28 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 15C9589127DFCE3500D3FD28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C9589827DFCE3500D3FD28 /* ViewController.swift in Sources */,
+				15C958B227DFCF5700D3FD28 /* JSONUtils.swift in Sources */,
+				15C958BE27DFCFFB00D3FD28 /* MovieCell.swift in Sources */,
 				15C9589427DFCE3500D3FD28 /* AppDelegate.swift in Sources */,
-				15C9589627DFCE3500D3FD28 /* SceneDelegate.swift in Sources */,
+				15C958BB27DFCFCB00D3FD28 /* MovieListController.swift in Sources */,
+				15C958C627DFD09400D3FD28 /* Movie+CoreDataProperties.swift in Sources */,
+				15C958B027DFCF4700D3FD28 /* APIRequests.swift in Sources */,
+				15C958C827DFE08100D3FD28 /* MovieController.swift in Sources */,
+				15C958B727DFCF9600D3FD28 /* CoreDataManager.swift in Sources */,
+				15C958C527DFD09400D3FD28 /* Movie+CoreDataClass.swift in Sources */,
 				15C9589E27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,8 +355,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,8 +385,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +424,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15C958B327DFCF8000D3FD28 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15C958B427DFCF8000D3FD28 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15C958B327DFCF8000D3FD28 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		15C9589C27DFCE3500D3FD28 /* RentaTeamTest.xcdatamodeld */ = {
